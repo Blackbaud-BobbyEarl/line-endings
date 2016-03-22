@@ -12,18 +12,9 @@ exitWithMessageOnError () {
   if [ ! $? -eq 0 ]; then
     echo "An error has occurred during web site deployment."
     echo $1
-    notifySlack "Stache build error: $1"
     exit 1
   fi
 }
-
-notifySlack() {
-  
-}
-
-# Prerequisites
-# -------------
-notifySlack "Stache build started."
 
 # Verify node.js installed
 hash node 2>/dev/null
@@ -123,5 +114,4 @@ if [[ -n "$POST_DEPLOYMENT_ACTION" ]]; then
   exitWithMessageOnError "post deployment action failed"
 fi
 
-notifySlack "Stache build successfully completed."
 echo "Finished successfully."
