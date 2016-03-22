@@ -3,8 +3,8 @@ module.exports = function (grunt) {
 
     var files = {
         'libs-github.js': 'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/dist/js/libs.js?token=AEZhQy8RoZP0JcbL_o-_aWpUS0jOWzZAks5W-cJwwA%3D%3D',
-        'libs-azure.js': 'http://skyux-line-endings.azurewebsites.net/js/libs.js'
-        //'libs-azure.js': 'http://chs6bobbyear03.blackbaud.global:8080/line-endings/libs-github.js'
+        'libs-azure.js': 'http://skyux-line-endings-2.azurewebsites.net/js/libs.js'
+        //'libs-azure.js': 'http://chs6bobbyear03.blackbaud.global:8080/line-endings2/libs-github.js'
     };
 
     grunt.initConfig({
