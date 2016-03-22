@@ -18,7 +18,7 @@ exitWithMessageOnError () {
 }
 
 notifySlack() {
-  curl -X POST --data-urlencode 'payload={"text":"['"$WEBSITE_SITE_NAME"'] '"$1"'"}' $SLACK_WEBHOOK
+  
 }
 
 # Prerequisites
