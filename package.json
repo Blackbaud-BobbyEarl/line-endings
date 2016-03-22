@@ -1,0 +1,24 @@
+{
+  "name": "line-endings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackbaud-bobbyearl/line-endings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackbaud-bobbyearl/line-endings/issues"
+  },
+  "homepage": "https://github.com/blackbaud-bobbyearl/line-endings#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-curl": "^2.2.0"
+  }
+}
