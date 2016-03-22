@@ -2,8 +2,8 @@
 module.exports = function (grunt) {
 
     var files = {
-        'libs-github.js': 'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/dist/js/libs.js?token=AEZhQy8RoZP0JcbL_o-_aWpUS0jOWzZAks5W-cJwwA%3D%3D',
-        'libs-azure.js': 'http://blackbaud-skyux-releases-prod-line-endings.azurewebsites.net/js/libs.js'
+        'libs-github.js': 'https://raw.githubusercontent.com/blackbaud/skyux/master/dist/js/libs.js',
+        'libs-azure.js': 'http://blackbaud-skyux-releases-prod-line-endings.azurewebsites.net/skyux/1.5.12/js/libs.js'
     };
 
     grunt.initConfig({
