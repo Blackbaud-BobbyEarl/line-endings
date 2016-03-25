@@ -1,0 +1,114 @@
+{
+    "@test/js/libs.js": {
+        "hashes": {
+            "sha384": "60PsR9NxmsgtjICLP26TeGYXf6ArkPxItZKesqecpJJQGwCtNr2YtjciWykAolG4"
+        },
+        "type": null,
+        "integrity": "sha384-60PsR9NxmsgtjICLP26TeGYXf6ArkPxItZKesqecpJJQGwCtNr2YtjciWykAolG4",
+        "path": "test/js/libs.js"
+    },
+    "@test/js/libs.min.js": {
+        "hashes": {
+            "sha384": "1RJAlLKlO8YkekFdnOK4UI+FB4pCT9zaVad46XsGAAc0XNdP1qu8P2gyO+QpW0S/"
+        },
+        "type": null,
+        "integrity": "sha384-1RJAlLKlO8YkekFdnOK4UI+FB4pCT9zaVad46XsGAAc0XNdP1qu8P2gyO+QpW0S/",
+        "path": "test/js/libs.min.js"
+    },
+    "@test/js/locales/sky-locale-en-AU.js": {
+        "hashes": {
+            "sha384": "Ki0stBA31R9afaHKotWCaYNBObMuBzRo0t5XpsavTtz+ACr9tvYPj8HWRVsFbqcp"
+        },
+        "type": null,
+        "integrity": "sha384-Ki0stBA31R9afaHKotWCaYNBObMuBzRo0t5XpsavTtz+ACr9tvYPj8HWRVsFbqcp",
+        "path": "test/js/locales/sky-locale-en-AU.js"
+    },
+    "@test/js/locales/sky-locale-en-CA.js": {
+        "hashes": {
+            "sha384": "mhgKqY6fxYN5zIDuSXpBoHDe8kV8kMtme1rusemv7Zk/VM3+xbKfzIzjADuSOmrC"
+        },
+        "type": null,
+        "integrity": "sha384-mhgKqY6fxYN5zIDuSXpBoHDe8kV8kMtme1rusemv7Zk/VM3+xbKfzIzjADuSOmrC",
+        "path": "test/js/locales/sky-locale-en-CA.js"
+    },
+    "@test/js/locales/sky-locale-en-GB.js": {
+        "hashes": {
+            "sha384": "Ki0stBA31R9afaHKotWCaYNBObMuBzRo0t5XpsavTtz+ACr9tvYPj8HWRVsFbqcp"
+        },
+        "type": null,
+        "integrity": "sha384-Ki0stBA31R9afaHKotWCaYNBObMuBzRo0t5XpsavTtz+ACr9tvYPj8HWRVsFbqcp",
+        "path": "test/js/locales/sky-locale-en-GB.js"
+    },
+    "@test/js/locales/sky-locale-en-US.js": {
+        "hashes": {
+            "sha384": "oRO+NH6G2eltLkhqVT8Cb/TyuxIjIlb7GHiDuFNw5CBy3m5KMXgnBx6YbVqgesk8"
+        },
+        "type": null,
+        "integrity": "sha384-oRO+NH6G2eltLkhqVT8Cb/TyuxIjIlb7GHiDuFNw5CBy3m5KMXgnBx6YbVqgesk8",
+        "path": "test/js/locales/sky-locale-en-US.js"
+    },
+    "@test/js/sky-bundle.js": {
+        "hashes": {
+            "sha384": "96ORdo1RYSysRQSG0Vk9HSXBWzfUNvTMi2wZoetK0OGS+mLqZRs7vtkU3KRBETW0"
+        },
+        "type": null,
+        "integrity": "sha384-96ORdo1RYSysRQSG0Vk9HSXBWzfUNvTMi2wZoetK0OGS+mLqZRs7vtkU3KRBETW0",
+        "path": "test/js/sky-bundle.js"
+    },
+    "@test/js/sky-bundle.min.js": {
+        "hashes": {
+            "sha384": "43G7+aC8tudJ48Cu7F5xEuz/XuoXsaejnX5bgAxnGJ+cJsjKaIb6/hIsCmxnBAcQ"
+        },
+        "type": null,
+        "integrity": "sha384-43G7+aC8tudJ48Cu7F5xEuz/XuoXsaejnX5bgAxnGJ+cJsjKaIb6/hIsCmxnBAcQ",
+        "path": "test/js/sky-bundle.min.js"
+    },
+    "@test/js/sky.js": {
+        "hashes": {
+            "sha384": "wnKLuU/Y0yQLZGogxlzelPrEjBVTmHJYZRqkphITwUjpHM0MK+/vlmL20ZjOIAkS"
+        },
+        "type": null,
+        "integrity": "sha384-wnKLuU/Y0yQLZGogxlzelPrEjBVTmHJYZRqkphITwUjpHM0MK+/vlmL20ZjOIAkS",
+        "path": "test/js/sky.js"
+    },
+    "@test/js/sky.min.js": {
+        "hashes": {
+            "sha384": "8L13bUHu4a5kQLAeZt43x02BwaBH3jcXleKcOk6bCGyeIbPod71MezPoMWBHyVy8"
+        },
+        "type": null,
+        "integrity": "sha384-8L13bUHu4a5kQLAeZt43x02BwaBH3jcXleKcOk6bCGyeIbPod71MezPoMWBHyVy8",
+        "path": "test/js/sky.min.js"
+    },
+    "@test/js/skylint.min.js": {
+        "hashes": {
+            "sha384": "7PxXG+ef3btckGobkafvR95sn21rTcQw7f93o+2OdF+KatpNIt/bmGrPzbnr2+tD"
+        },
+        "type": null,
+        "integrity": "sha384-7PxXG+ef3btckGobkafvR95sn21rTcQw7f93o+2OdF+KatpNIt/bmGrPzbnr2+tD",
+        "path": "test/js/skylint.min.js"
+    },
+    "@test/css/libs.css": {
+        "hashes": {
+            "sha384": "SJ/gYkmj7pVY8pWbjSi23bXsx7aM8n4oYhMSvy7HLo2ouG/2HCC5yLmNnrXlgk0Y"
+        },
+        "type": null,
+        "integrity": "sha384-SJ/gYkmj7pVY8pWbjSi23bXsx7aM8n4oYhMSvy7HLo2ouG/2HCC5yLmNnrXlgk0Y",
+        "path": "test/css/libs.css"
+    },
+    "@test/css/sky-bundle.css": {
+        "hashes": {
+            "sha384": "OJSFvKyjsVkPT3ixr8eY5GhXv/7K0RiYBqyGjCWp8iQJUlZLFrjac3O8CSnSOV0e"
+        },
+        "type": null,
+        "integrity": "sha384-OJSFvKyjsVkPT3ixr8eY5GhXv/7K0RiYBqyGjCWp8iQJUlZLFrjac3O8CSnSOV0e",
+        "path": "test/css/sky-bundle.css"
+    },
+    "@test/css/sky.css": {
+        "hashes": {
+            "sha384": "pLB26Op4JIw5FFhAw6JUD/oGJOoSBDvgOjRcz6HDxrWBYmHC/MHyImDqHbc1rT3J"
+        },
+        "type": null,
+        "integrity": "sha384-pLB26Op4JIw5FFhAw6JUD/oGJOoSBDvgOjRcz6HDxrWBYmHC/MHyImDqHbc1rT3J",
+        "path": "test/css/sky.css"
+    }
+}

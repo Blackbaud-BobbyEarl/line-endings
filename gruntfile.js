@@ -2,12 +2,34 @@
 module.exports = function (grunt) {
 
     var files = {
-        'libs-github.js': 'https://raw.githubusercontent.com/blackbaud/skyux/master/dist/js/libs.js',
-        'libs-azure.js': 'http://blackbaud-skyux-releases-prod-line-endings.azurewebsites.net/skyux/1.5.12/js/libs.js'
+        'libs-github.js': 'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/dist/js/libs.js?token=AEZhQ30jUBPN3cBHaCvZezr9yQlMfg3bks5W_r6lwA%3D%3D',
+        'libs-azure.js': 'http://blackbaud-line-endings.azurewebsites.net/dist/js/libs.js'
     };
 
     grunt.initConfig({
-        curl: files
+        curl: files,
+        sri: {
+            dist: {
+                options: {
+                    algorithms: ['sha384'],
+                    dest: 'sri.json'
+                },
+                src: [
+                    'dist/**/*.js',
+                    'dist/**/*.css'
+                ]
+            },
+            test: {
+                options: {
+                    algorithms: ['sha384'],
+                    dest: 'sri-test.json'
+                },
+                src: [
+                    'test/**/*.js',
+                    'test/**/*.css'
+                ]
+            }
+        }
     });
 
     function characterCodeCount(code, src) {
@@ -79,6 +101,7 @@ module.exports = function (grunt) {
 
         grunt.task.run('compare');
     });
-    grunt.loadNpmTasks('grunt-curl');
 
+    grunt.loadNpmTasks('grunt-curl');
+    grunt.loadNpmTasks('grunt-sri');
 };

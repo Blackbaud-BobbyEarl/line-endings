@@ -19,6 +19,7 @@
   "homepage": "https://github.com/blackbaud-bobbyearl/line-endings#readme",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-curl": "^2.2.0"
+    "grunt-curl": "^2.2.0",
+    "grunt-sri": "0.0.5"
   }
 }
