@@ -2,8 +2,8 @@
 module.exports = function (grunt) {
 
     var files = {
-        'has-lf-github.js': 'http://blackbaud-line-endings.azurewebsites.net/has-lf.js',//'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/has-crlf.js',
-        'has-lf-azure.js': 'http://blackbaud-line-endings.azurewebsites.net/deploy/has-lf.js'
+        'has-lf-github.js': 'http://blackbaud-line-endings-fresh.azurewebsites.net/has-lf.js',//'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/has-crlf.js',
+        'has-lf-azure.js': 'http://blackbaud-line-endings-fresh.azurewebsites.net/deploy/has-lf.js'
     };
 
     grunt.initConfig({
