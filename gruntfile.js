@@ -45,8 +45,8 @@ module.exports = function (grunt) {
     }
 
     grunt.registerTask('compare', function () {
-        var github = grunt.file.read('libs-azure.js'),
-            azure = grunt.file.read('libs-github.js'),
+        var github = grunt.file.read('has-lf.js'),
+            azure = grunt.file.read('has-crlf.js'),
             diff = github.length - azure.length,
             largerText,
             larger,
@@ -65,12 +65,13 @@ module.exports = function (grunt) {
             largerI = 0;
             largerLength = larger.length;
             for (largerI; largerI < largerLength; largerI++) {
-                if (larger[largerI] !== smaller[largerI]) {
-                    console.log('FIRST MISMATCH AT ' + largerI);
-                    console.log(larger[largerI] + ' vs ' + smaller[largerI]);
-                    console.log(larger.charCodeAt(largerI) + ' vs ' + smaller.charCodeAt(largerI));
-                    break;
-                }
+                console.log(largerI, larger[largerI], smaller[largerI]);
+                // if (larger[largerI] !== smaller[largerI]) {
+                //     console.log('FIRST MISMATCH AT ' + largerI);
+                //     console.log(larger[largerI] + ' vs ' + smaller[largerI]);
+                //     console.log(larger.charCodeAt(largerI) + ' vs ' + smaller.charCodeAt(largerI));
+                //     break;
+                // }
             }
 
             console.log(largerText + ' instances of 10: ' + characterCodeCount(10, larger));

@@ -1,5 +1,0 @@
-# Enforce consistent line feeds for all files
-* text=auto
-
-# Except leave anything in dist as is
-dist/* -text
