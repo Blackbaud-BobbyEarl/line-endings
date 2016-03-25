@@ -2,31 +2,29 @@
 module.exports = function (grunt) {
 
     var files = {
-        'libs-github.js': 'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/dist/js/libs.js?token=AEZhQ30jUBPN3cBHaCvZezr9yQlMfg3bks5W_r6lwA%3D%3D',
-        'libs-azure.js': 'http://blackbaud-line-endings.azurewebsites.net/dist/js/libs.js'
+        'has-crlf-github.js': 'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/has-crlf.js',
+        'has-crlf-azure.js': 'http://blackbaud-line-endings.azurewebsites.net/has-crlf.js'
     };
 
     grunt.initConfig({
         curl: files,
         sri: {
-            dist: {
+            crlf: {
                 options: {
                     algorithms: ['sha384'],
-                    dest: 'sri.json'
+                    dest: 'sri-crlf.json'
                 },
                 src: [
-                    'dist/**/*.js',
-                    'dist/**/*.css'
+                    'has-crlf.js'
                 ]
             },
-            test: {
+            lf: {
                 options: {
                     algorithms: ['sha384'],
-                    dest: 'sri-test.json'
+                    dest: 'sri-lf.json'
                 },
                 src: [
-                    'test/**/*.js',
-                    'test/**/*.css'
+                    'has-lf.js'
                 ]
             }
         }
@@ -45,8 +43,8 @@ module.exports = function (grunt) {
     }
 
     grunt.registerTask('compare', function () {
-        var github = grunt.file.read('has-lf.js'),
-            azure = grunt.file.read('has-crlf.js'),
+        var github = grunt.file.read('has-crlf-github.js'),
+            azure = grunt.file.read('has-crlf-azure.js'),
             diff = github.length - azure.length,
             largerText,
             larger,

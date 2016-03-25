@@ -1,5 +1,5 @@
 # Enforce consistent line feeds for all files
 * text=auto
 
-# Except leave anything in dist as is
-dist/* -text
+# Except leave anything in deploy as is
+deploy/* -text
