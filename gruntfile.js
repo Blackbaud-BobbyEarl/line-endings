@@ -2,8 +2,8 @@
 module.exports = function (grunt) {
 
     var files = {
-        'has-crlf-github.js': 'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/has-crlf.js',
-        'has-crlf-azure.js': 'http://blackbaud-line-endings.azurewebsites.net/has-crlf.js'
+        'has-lf-github.js': 'http://blackbaud-line-endings.azurewebsites.net/has-lf.js',//'https://raw.githubusercontent.com/Blackbaud-BobbyEarl/line-endings/master/has-crlf.js',
+        'has-lf-azure.js': 'http://blackbaud-line-endings.azurewebsites.net/deploy/has-lf.js'
     };
 
     grunt.initConfig({
@@ -43,8 +43,8 @@ module.exports = function (grunt) {
     }
 
     grunt.registerTask('compare', function () {
-        var github = grunt.file.read('has-crlf-github.js'),
-            azure = grunt.file.read('has-crlf-azure.js'),
+        var github = grunt.file.read('has-lf-github.js'),
+            azure = grunt.file.read('has-lf-azure.js'),
             diff = github.length - azure.length,
             largerText,
             larger,
